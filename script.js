@@ -15,5 +15,5 @@ if (age < 18) {
 
 // calcolare il prezzo finale
 
-const FinalPrice = price - discount(Math.round(FinalPrice * 100) / 100).toFixed(2);
-console.log(FinalPrice);
+const FinalPrice = price - discount;
+console.log(FinalPrice.toFixed(2));
