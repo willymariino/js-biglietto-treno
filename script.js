@@ -12,3 +12,8 @@ if (age < 18) {
 } else if (age > 65) {
     discount = price * 0.4;
 }
+
+// calcolare il prezzo finale
+
+const FinalPrice = price - discount;
+console.log(FinalPrice);
